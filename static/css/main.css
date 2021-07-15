@@ -66,6 +66,16 @@
     background-repeat: repeat-x;
     background-position: center center;
 }
+.main_text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px 40px;
+	flex-direction: column;
+	max-width: 1000px;
+	margin: auto;
+	margin-bottom: 100px;
+}
 
 .pricing::after{
 	content: "";
