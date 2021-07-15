@@ -76,7 +76,11 @@
 	margin: auto;
 	margin-bottom: 100px;
 }
-
+.dog_image {
+	height: 250px;
+	width: 250px; 
+	padding: 10px;
+}
 .pricing::after{
 	content: "";
 	position: absolute;
@@ -104,4 +108,32 @@
 	background-color: #8fc8ad;
 	margin: 10px;
 	border-radius: 5px;
+}
+
+.footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px 40px;
+	flex-direction: column;
+	max-width: 1000px;
+	margin: auto;
+}
+.gallery{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px 40px;
+	flex-direction: column;
+	max-width: 1000px;
+	margin: auto;
+}
+.header {
+	height: 100px;
+	width: calc(100% - 40px);
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0px 20px;
 }
